@@ -10,6 +10,8 @@ import { Heart, Sparkles, ArrowRight } from 'lucide-react';
 import TypewriterText from '../components/TypewriterText';
 import SpiritualParticles from '../components/SpiritualParticles';
 import BackgroundMusic from '../components/BackgroundMusic';
+import VisitorCounter from '../components/VisitorCounter'; // ← At the top of the file
+
 
 const spiritAnimals = [
   {
@@ -460,6 +462,9 @@ const Index = () => {
                     <Heart className="w-4 h-4" />
                     Buy me a chai 🍵
                   </motion.a>
+                 
+                  <VisitorCounter />
+
                 </motion.div>
               </div>
             </footer>
